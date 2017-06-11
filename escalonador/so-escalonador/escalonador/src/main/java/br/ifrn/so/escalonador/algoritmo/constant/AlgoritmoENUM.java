@@ -4,7 +4,8 @@ public enum AlgoritmoENUM {
 
 	SELECIONE (0, "Selecione"),
 	FIFO (1, "FIFO"),
-	SJF (2, "SJF - Shortest Job First");
+	SJF (2, "SJF - Shortest Job First"),
+	RR (3, "RR - Round Robin");
 	
 	private int id;
 	private String descricao;

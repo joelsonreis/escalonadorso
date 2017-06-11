@@ -31,6 +31,3 @@ public class RR extends Algoritmo implements ActionListener {
 	}
 }
 
-public class RR {
-
-}

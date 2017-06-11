@@ -90,13 +90,13 @@ public class Principal extends JFrame {
 		getContentPane().add(paAProcessar);
 		paAProcessar.setLayout(new BorderLayout(0, 0));
 		
-		JLabel lbljoelsonreis = new JLabel("©JoelsonReis");
+		JLabel lbljoelsonreis = new JLabel("JoelsonReis");
 		lbljoelsonreis.setBounds(727, 386, 106, 16);
 		getContentPane().add(lbljoelsonreis);
 	}
 
 	private void nucleo() {
-		JLabel lbNucleos = new JLabel("Núcleos:");
+		JLabel lbNucleos = new JLabel("Nucleos");
 		lbNucleos.setBounds(46, 24, 55, 16);
 		paParametros.add(lbNucleos);
 
@@ -139,6 +139,7 @@ public class Principal extends JFrame {
 		cbAlgoritmo.addItem(AlgoritmoENUM.SELECIONE.getDescricao());
 		cbAlgoritmo.addItem(AlgoritmoENUM.FIFO.getDescricao());
 		cbAlgoritmo.addItem(AlgoritmoENUM.SJF.getDescricao());
+		cbAlgoritmo.addItem(AlgoritmoENUM.RR.getDescricao());
 		paParametros.add(cbAlgoritmo);
 	}
 
